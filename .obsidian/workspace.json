@@ -197,8 +197,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -216,8 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,19 +237,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "34ca9a14270b9aa5",
+  "active": "ffc5274cc4872e5d",
   "lastOpenFiles": [
-    "work/filename.pdf",
-    "work/filename.aux",
-    "work/filename.log",
-    "work/filename.tex",
-    "work/helloworld.synctex(busy)",
-    "work/helloWorld2.synctex(busy)",
-    "work/helloWorld2.synctex.gz",
-    "work/helloWorld2.pdf",
-    "work/helloWorld.tex",
-    "work/helloWorld2 copy.tex",
-    "work/helloWorld2.tex",
+    "work/Week_2/mathDocument.synctex(busy)",
+    "work/Week_2/fullArticle2.synctex(busy)",
+    "work/Week_2/fullArticle2.synctex.gz",
+    "work/Week_2/fullArticle2.pdf",
+    "work/Week_2/fullArticle2.aux",
+    "work/Week_2/fullArticle2.log",
+    "work/Week_2/fullArticle2.tex",
+    "work/Week_2/secondArticle copy 2.tex",
+    "work/Week_2/mathDocument.synctex.gz",
+    "work/Week_2/mathDocument.pdf",
+    "work/Week_2/mathDocument.aux",
     "_templates/lecture_template.md.md",
     "PHYS_87_SE_1.md",
     "PHIL_10_LE_2.md",

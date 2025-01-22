@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\begin{document}
+My first equation is $F=ma$. My second is \(a=F/m\). The third is \[a=F/m.\]
+% $$ is inline
+% [] is display mode
+
+My fist equation is $F=ma$. My second is \[ a=F/m\].
+Some text here. I want to write enough that
+there will be a few
+lines after the displayed equation blah blah blah.
+
+My fist equation is $F=ma$. My second is
+\begin{equation}
+\label{acceleration}
+a=F/m.
+\end{equation}
+
+The period is in the right place. I have placed it inside
+the displayed equation (\ref{acceleration}). I want to write enough that
+there will be a few lines after the displayed equation
+blah blah blah.
+
+\begin{equation}
+\label{eq:Newton}
+F=ma
+\end{equation}
+is the same as
+\begin{equation}
+\label{accel}
+a=F/m.
+\end{equation}
+The period is in the right place. I have placed it inside
+the displayed equation (\ref{accel}). I want to write enoug
+that there will be a few lines after the displayed equation. 
+I added equation (\ref{eq:Newton}).
+
+\end{document}
