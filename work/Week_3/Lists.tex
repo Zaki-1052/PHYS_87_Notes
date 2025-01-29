@@ -1,0 +1,120 @@
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{amsmath}
+\begin{document}
+
+\begin{description}
+\item[\color{red}First] The first entry here
+\item[\color{blue}Second] Then the second
+\item[\color{black}Last] Then the last
+\end{description}
+
+\begin{description}
+\item[First] The first entry here
+\item[Second] Then the second
+\item[Last] Then the last
+\end{description}
+
+\begin{description}
+\item The first entry here
+\item Then the second
+\item Then the last
+\end{description}
+
+\begin{enumerate}
+\item The first entry here
+\item Then the second, which leads to
+\begin{enumerate}
+\item The first sub-entry here
+\item Then the second sub-entry
+\item etc
+\end{enumerate}
+\item Return to original list, etc
+\end{enumerate}
+
+\renewcommand{\labelitemi}{\textgreater}
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\item etc
+\end{itemize}
+
+\begin{enumerate}[Exerc{i}se 1)]
+\item The first entry here
+\item Then the second
+\item etc
+\end{enumerate}
+
+\begin{enumerate}[Exercise 1)]
+\item The first entry here
+\item Then the second
+\item etc
+\end{enumerate}
+
+\begin{itemize}
+\item[-] The first entry here
+\item[*] Then the second
+\item[$>$] etc
+\item[\#] test
+\end{itemize}
+
+\renewcommand{\labelitemi}{$\bullet$}
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\item etc
+\end{itemize}
+
+\begin{itemize}
+\item The first entry here
+\item Then the second, which leads to
+\begin{itemize}
+\item The first sub-entry here
+\item Then the second sub-entry
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\item etc
+\end{itemize}
+\item etc
+\end{itemize}
+\item Return to original list, etc
+\end{itemize}
+
+\renewcommand{\labelitemi}{\textgreater}
+\renewcommand{\labelitemii}{$\star$}
+\renewcommand{\labelitemiii}{$\bullet$}
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\item etc
+\end{itemize}
+\item etc
+\end{itemize}
+\item etc
+\end{itemize}
+
+\begin{enumerate}[(i)]
+\item The first entry here
+\item Then the second
+\item etc
+\end{enumerate}
+
+\section{Math}
+
+\begin{equation*}
+a+b
+\end{equation*}
+\begin{multline}
+a+b+c+d+e+f+g+h+i+j+k+l+m\\
++n+o+p+q+r+s+t+u+v+w+x+y+z
+\end{multline}
+
+\end{document}

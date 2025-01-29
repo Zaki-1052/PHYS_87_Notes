@@ -1,0 +1,42 @@
+\documentclass[11pt]{article}
+\usepackage{enumerate}
+\usepackage{color}
+\begin{document}
+
+\begin{description}
+\item[\color{red}First] The first entry here
+\item[\color{blue}Second] Then the second
+\item[\color{black}Last] Then the last
+\end{description}
+
+\begin{enumerate}[Exerc{i}se 1)]
+\item The first entry here
+\item Then the second, which leads to
+\begin{enumerate}
+\item The first sub-entry here
+\item Then the second sub-entry
+\item etc
+\end{enumerate}
+\item Return to original list, etc
+\end{enumerate}
+
+\renewcommand{\labelitemi}{\textgreater}
+\renewcommand{\labelitemii}{$\star$}
+\renewcommand{\labelitemiii}{$\bullet$}
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\begin{itemize}
+\item The first entry here
+\item Then the second
+\item etc
+\end{itemize}
+\item etc
+\end{itemize}
+\item etc
+\end{itemize}
+
+\end{document}
