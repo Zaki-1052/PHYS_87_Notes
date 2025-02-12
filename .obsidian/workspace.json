@@ -15,8 +15,17 @@
               "state": {
                 "file": "PHYS_87_SE_1.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "PHYS_87_SE_1"
@@ -57,7 +66,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -239,17 +249,17 @@
   },
   "active": "34ca9a14270b9aa5",
   "lastOpenFiles": [
+    "work/Week_6/mathEquations.synctex(busy)",
+    "work/Week_6/mathEquations.synctex.gz",
+    "work/Week_6/mathEquations.pdf",
+    "work/Week_6/mathEquations.aux",
+    "work/Week_6/mathEquations.log",
+    "work/Week_6/mathEquations.tex",
+    "work/Week_6",
+    "work/untitled folder",
     "work/Week_2/mathDocument.synctex(busy)",
     "work/Week_2/fullArticle2.synctex(busy)",
     "work/Week_2/fullArticle2.synctex.gz",
-    "work/Week_2/fullArticle2.pdf",
-    "work/Week_2/fullArticle2.aux",
-    "work/Week_2/fullArticle2.log",
-    "work/Week_2/fullArticle2.tex",
-    "work/Week_2/secondArticle copy 2.tex",
-    "work/Week_2/mathDocument.synctex.gz",
-    "work/Week_2/mathDocument.pdf",
-    "work/Week_2/mathDocument.aux",
     "_templates/lecture_template.md.md",
     "PHYS_87_SE_1.md",
     "PHIL_10_LE_2.md",
